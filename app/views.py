@@ -38,3 +38,8 @@ def update(request, pk):
     if form.is_valid():
         form.save()
         return redirect('home')
+
+def delete(request, pk):
+    db = Carros.objects.get(pk=pk)
+    db.delete()
+    return redirect('home')
