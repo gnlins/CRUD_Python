@@ -1,0 +1,7 @@
+asgiref==3.4.1
+Django==3.2.18
+mysqlclient @ file:///C:/Projetos/CRUD_Python/mysqlclient-1.4.6-cp36-cp36m-win_amd64.whl
+PyMySQL==1.0.2
+pytz==2022.7.1
+sqlparse==0.4.3
+typing_extensions==4.1.1
